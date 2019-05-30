@@ -16,6 +16,7 @@
     "postinstall": "yarn run build && yarn run deploy && echo 'Client built!'"
   },
   "author": "JerYoMAt",
-  "license": "MIT"
-  
+  "license": "MIT",
+  "repository": "git@github.com:JerYoMat/learn-help-react.git",
+  "private": true
 }
