@@ -16,6 +16,6 @@
     "postinstall": "yarn run build && yarn run deploy && echo 'Client built!'"
   },
   "author": "JerYoMAt",
-  "license": "MIT",
+  "license": "MIT"
   
 }
