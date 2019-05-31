@@ -22,6 +22,7 @@ group :test do
   gem 'rails-controller-testing'
   gem 'minitest'
   gem 'minitest-reporters'
+  gem 'database_cleaner'
 end 
 
 group :production do 
