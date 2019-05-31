@@ -13,11 +13,16 @@ gem 'jwt'
 
 group :development, :test do
   gem 'foreman', '~> 0.82.0'
-  gem 'minitest'
   gem 'sqlite3'
   gem 'pry'
   gem 'byebug', platforms: [:mri, :mingw, :x64_mingw]
 end
+
+group :test do 
+  gem 'rails-controller-testing'
+  gem 'minitest'
+  gem 'minitest-reporters'
+end 
 
 group :production do 
   gem 'pg'
